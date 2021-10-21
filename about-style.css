@@ -1,0 +1,107 @@
+section.about-page {
+    position: relative;
+    padding: 10% 120px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    max-width: 600px;
+}
+
+.transperant-logo {
+    max-width:100%;
+}
+
+section.about-page .about-me {
+    grid-column: 2/10;
+}
+
+section.about-page h5{
+    font-weight: 400;
+    font-family: 'Bebas Neue', normal;
+    font-size: 1.8em;
+    grid-column: 2 / 8;
+
+    background-image: linear-gradient(45deg, #97C8EB, #F3D3BD);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+section.about-page .headline {
+    font-weight: 400;
+    font-family: 'Baloo 2', normal;
+    font-size: 1.5em;
+    grid-column: 2 / 7;
+    color: var(--grey2);
+}
+
+.headline p{
+    margin-top: 2em ;
+    margin-bottom: 2em ;
+}
+
+.headline p{
+    margin-top: 2em ;
+    margin-bottom: 2em ;
+}
+.about-page h5{
+    margin-bottom: 3em;
+}
+
+h1.title {
+    font-weight: 500;
+    font-family: 'Baloo 2', normal;
+    font-size: 2.669em;
+    grid-column: 2 / 7;
+    
+    background-image: linear-gradient(45deg, #97C8EB, #F3D3BD);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.headline #web{
+    font-weight: 800;
+    font-family: 'Baloo 2', 'normal';
+    
+    grid-column: 2 / 7;
+    color: var(--grey);
+}
+.headline #web-link{
+    font-weight: 800;
+    font-family: 'Baloo 2', 'normal';
+    font-size: 24px;
+    grid-column: 2 / 7;
+    color: var(--grey);
+}
+
+.headline #web-link a:visited{
+    color: var(--blue);
+    
+  }
+  .headline #web-link a:link{
+    color: var(--blue);
+  }
+
+  .headline #web-link a:hover{
+    color:var(--grey);
+  }
+
